@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import axios from 'axios'
+import { NavBar } from './NavBar'
 
 export const SearchPatient = () => {
     const [data,setData]=useState(
@@ -33,7 +34,7 @@ export const SearchPatient = () => {
   return (
     <div>
         <h1><center>SEARCH PATIENT</center></h1>
-     
+     <NavBar></NavBar>
        <div className="container">
         <div className="row">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">

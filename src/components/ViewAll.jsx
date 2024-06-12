@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import axios from 'axios'
+import { NavBar } from './NavBar'
 
 export const ViewAll = () => {
   const [data,changeData]=useState([])
@@ -20,7 +21,7 @@ export const ViewAll = () => {
   return (
     <div>
       <h1><center>VIEW PATIENT DETAILS</center></h1>
-        
+        <NavBar></NavBar>
          <div class="container">
         <div class="row g-3">
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
